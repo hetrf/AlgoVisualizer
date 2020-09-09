@@ -1,6 +1,6 @@
 <div class="main-container">
 	<header class="header">
-		Test Example
+		<span class="nav-text">Algorithm Visualizer</span>
 	</header>
 	<div class="content-container">
 		<div class="content-area">
@@ -9,7 +9,7 @@
 		<clr-vertical-nav [clrVerticalNavCollapsible]="true">
 			<clr-vertical-nav-group routerLinkActive="active">
 				<clr-icon shape="user" clrVerticalNavIcon></clr-icon>
-				Normal
+				Graphs
 				<clr-vertical-nav-group-children>
 					<a clrVerticalNavLink routerLink="./normal/pidgey" routerLinkActive="active">
 						Pidgey
@@ -21,7 +21,7 @@
 			</clr-vertical-nav-group>
 			<clr-vertical-nav-group routerLinkActive="active">
 				<clr-icon shape="flame" clrVerticalNavIcon></clr-icon>
-				Fire
+				Standard Algorithms
 				<clr-vertical-nav-group-children>
 					<a clrVerticalNavLink routerLink="./fire/charmander" routerLinkActive="active">
 						Charmander
@@ -31,22 +31,6 @@
 					</a>
 				</clr-vertical-nav-group-children>
 			</clr-vertical-nav-group>
-			<clr-vertical-nav-group routerLinkActive="active">
-				<clr-icon shape="bolt" clrVerticalNavIcon></clr-icon>
-				Electric
-				<clr-vertical-nav-group-children>
-					<a clrVerticalNavLink routerLink="./electric/pikachu" routerLinkActive="active">
-						Pikachu
-					</a>
-					<a clrVerticalNavLink routerLink="./electric/raichu" routerLinkActive="active">
-						Raichu
-					</a>
-				</clr-vertical-nav-group-children>
-			</clr-vertical-nav-group>
-			<a clrVerticalNavLink routerLinkActive="active" routerLink="./credit">
-				<clr-icon shape="certificate" clrVerticalNavIcon></clr-icon>
-				Credit
-			</a>
 		</clr-vertical-nav>
 	</div>
 </div>
